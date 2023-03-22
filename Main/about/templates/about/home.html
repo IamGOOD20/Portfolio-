@@ -1,7 +1,82 @@
 {% load static %}
 
-<link href="{% static '/about/css/style.css'%}" rel="stylesheet" type="text/css"/>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eugene Rukshenas</title>
+	<link href="{% static '/about/css/style.css'  %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card card-body h-100 border-info" id="profile-wrapper">
+					<img id="profile-pic" src="{% static '/about/images/Eugene Rukshenas.jpg' %}">
+					<h3>Hi I'm Eugene!</h3>
+					<p>I'm here to help change the world!</p>
+					<ul class="social-links">
+						<a href="https://github.com/IamGOOD20"><img class="social" src="{% static '/about/images/Github.png'%}"></a>
+						<li></li>
+						<li></li>
+						<a href="https://www.linkedin.com/in/eugene-rukshenas-571a70225/"><img class="social" src="{% static '/about/images/Linkedin.png' %}"></a>
+						<p></p>
+						<p>+1 (438) 985 8567</p>
+						<p>e.rukshenas@gmail.com</p>
+						<p>Montréal, QC, CA</p>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-9">
+				<div class="card card-body h-100  border-info">
+					<h4>My First Experience as a Developer</h4>
+					<hr>
+					<p>The world is changing too fast to think for a long time whether it is worth participating in these changes!</p>
+					<p>I implemented my <a href="https://github.com/IamGOOD20/OptiSale" style="color:black"><u>first project</u></a> while working as a sales manager,
+						I needed to quickly create invoices in PDF format for quick distribution or printing to my clients.
+						Why not make such a program with your own hands? So my first project appeared,
+						this is not a big python script that I love very much and which motivates me not to stop.<p/>
+					<p>I don’t know about you, but I have very little time to watch films, but when I have the opportunity,
+						I don’t want to choose a movie for hours, and even more so watch a well-known brand that is not worth our time at all.
+						So the idea for <a href="https://github.com/IamGOOD20/Top-movies-2022-2000" style="color:black"><u>another project</u></a>  was born.
+						Collect TOP films that are estimated not by the number of millions invested,
+						but by the rating of film critics. And I was not mistaken! Plus,
+						I found out about great movies that I probably never would have known about.<p/>
+					<p>You can find most of my projects in my <a href="https://github.com/IamGOOD20" style="color:black"><u>GitHub</u></a></p>
+					<p>I am immersed in what I do, I love it, I want to develop and learn new things.<p/>
 
-<h3>Portfolio: start</h3>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100 border-info">
+					<h5>My Experience as a Developer</h5>
+					<hr>
+					<p>To date, my professional experience lies in the implementation of my own projects,
+						courses taken and books read. Everything I know, I learned by myself.
+						I am looking forward to my first work experience in the company,
+						to apply all my knowledge to achieve the goals of the company and humanity.</p>
+				</div>
+			</div>
 
-<img src="{% static '/about/images/coffe.jpg'%}"/>
+			<div class="col-md-6">
+				<div class="card card-body h-100 border-info">
+					<h5>What I Know</h5>
+					<hr>
+					<p>Python, OOP, Django, Django REST, Postman, SQL, API, Web Scraping, Telegram Bot API, Git, GitHub, PyCharm, OS Windows.</p>
+					<p>Future: Interested in programming everyday items, daily necessities, smart home system, Machine Learning.</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+			</div>
+		</div>
+		<br>
+	</div>
+</body>
+</html>
